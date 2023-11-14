@@ -6,15 +6,15 @@ export default function Home() {
   return (
     <div className="bg-blue-900 w-screen h-screen flex items-center">
       <div className="text-center w-full">
-      <button onClick={() => signIn('google')} className="bg-white p-2 px-4 rounded-lg">Login With Google</button>
+        <button onClick={() => signIn('google')} className="bg-white p-2 px-4 rounded-lg">Login With Google
+        </button>
       </div>
     </div>
   );
  }
   return (
     <div className="bg-blue-900 min-h-screen">
-      
-    <div>logged in {session.user.email}</div>
+      <div>logged in {session.user.email}</div>
     </div>
   );
 }
