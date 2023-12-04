@@ -1,3 +1,5 @@
+/* Tailwind directives */
+/* special comments that allow you to control the generation of utility classes during the build process. */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// Module exports from tailwind next.js website
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
